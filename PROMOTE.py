@@ -25,8 +25,8 @@ async def send_message(client, username, message, timer):
 async def main():
     async with TelegramClient('bot1', api_id, api_hash) as client:
         target_usernames = ['https://t.me/lpm_roleplayer_1','https://t.me/lpm_roleplayer_23',
-'https://t.me/LPM_Roleplayer_2','https://t.me/lpm_cari_cp_pacar','https://t.me/lpm_cari_cp_fambest_rp','https://t.me/lpm_cari_cp_temen_rprl','https://t.me/lpm_rp_cari_cp','https://t.me/lpm_cari_cp_suami_rprl','https://t.me/lpm_cari_cp_suami_rprl','https://t.me/lpm_cari_fambest','https://t.me/LPM_Roleplayer','https://t.me/lpm_cari_cp_rprl','https://t.me/LPM_Roleplayers','https://t.me/lpm_roleplay']
-        message = '''CC BARU NETES, FREE OS, RP/RPRL ‼️
+'https://t.me/LPM_Roleplayer_2','https://t.me/lpm_cari_cp_pacar','https://t.me/lpm_cari_cp_fambest_rp','https://t.me/lpm_cari_cp_temen_rprl','https://t.me/lpm_rp_cari_cp']
+        message = '''SOKAPIN, FREE OS, RP/RPRL ‼️
 NO KACANG SOKAPIN
 
 https://t.me/+aYGP-EKcTdFkMDg1
@@ -34,7 +34,7 @@ https://t.me/+aYGP-EKcTdFkMDg1
 https://t.me/+aYGP-EKcTdFkMDg1   '''
        
 
-        timers = [50, 50, 50, 50, 50, 50, 50, 50, 50, 60, 40, 40, 35, 30]  # Timer untuk setiap pengguna (dalam detik)
+        timers = [30, 30, 30, 30, 30, 30, 35, 50, 50, 60, 40, 40, 35, 30]  # Timer untuk setiap pengguna (dalam detik)
 
         tasks = []
         for username, timer in zip(target_usernames, timers):
