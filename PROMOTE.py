@@ -1,8 +1,8 @@
 from telethon import TelegramClient, events
 import asyncio
 
-api_id = 28608773 # ganti dengan api_id Anda
-api_hash = '3d63f46adc9dece0665bbb4fb5534c61' 
+api_id = 20805746 # ganti dengan api_id Anda
+api_hash = 'c83293875efb9890debf4e79a1d78560' 
 
 async def send_message(client, username, message, timer):
     session = 1
